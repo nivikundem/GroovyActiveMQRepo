@@ -26,7 +26,7 @@ public class ActiveMQMessageSenderFrame extends JFrame {
 	
 	
 	/**
-	 * BridgeCrossingFrame
+	 * BridgeCrossingFrame 
 	 */
 	public ActiveMQMessageSenderFrame()
 	{
