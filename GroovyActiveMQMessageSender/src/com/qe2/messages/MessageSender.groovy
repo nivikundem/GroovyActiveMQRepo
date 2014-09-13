@@ -21,7 +21,7 @@ class MessageSender {
 	private static final Logger LOG = Logger.getLogger(MessageSender.class.getName());	
 	    
 	//Sending activeMQ xml message to the QUEUE - CROSSING.HO.PERFORMANCE
-	private static void sendMessage(){
+	public static void sendMessage(){
 		Connection con = null;
 		DBDetails dbDetails = new DBDetails();
 		con = dbDetails.getDBConnection();
